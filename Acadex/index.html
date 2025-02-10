@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit-like Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">MySite</div>
+        <input type="text" placeholder="Search">
+        <div class="header-right">
+            <div class="chatbot-icon" onclick="toggleChat()">💬</div>
+            <div class="user-menu">Profile</div>
+        </div>
+    </header>
+    <div class="container">
+        <aside>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Popular</li>
+                    <li>Explore</li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <div class="post">
+                <h2>Post Title</h2>
+                <p>Post content goes here...</p>
+            </div>
+            <div class="post">
+                <h2>Another Post</h2>
+                <p>More content here...</p>
+            </div>
+        </main>
+    </div>
+    <div id="chatWindow" class="chat-window">
+        <div class="chat-header">Chatbot</div>
+        <div class="chat-body">
+            <p>Hello! How can I assist you today?</p>
+        </div>
+        <div class="chat-footer">
+            <input type="text" placeholder="Type a message...">
+            <button>Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
