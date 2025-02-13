@@ -2,16 +2,16 @@
 const posts = [
     { image: "images/ai_In_Healthcare.jpg", title: "Exploring AI in Healthcare" },
     { image: "images/aiEthics.jpg", title: "Collaborating with Industry Experts on AI Algorithms" },
-    { image: "images/research_internship.jpg", title: "Mentoring Students in Research Internship Program" },
-    { image: "images/conference_presentation.jpg", title: "Presentation at NeurIPS 2024: AI in Data Security" }
+    { image: "images/internship.jpg", title: "Mentoring Students in Research Internship Program" },
+    { image: "images/neurips.jpg", title: "Presentation at NeurIPS 2024: AI in Data Security" }
 ];
 
 
 const researchPapers = [
-    { image: "/placeholder.svg?height=150&width=200", title: "AI in Healthcare" },
-    { image: "/placeholder.svg?height=150&width=200", title: "Quantum Computing Advances" },
-    { image: "/placeholder.svg?height=150&width=200", title: "Blockchain for Data Security" },
-    { image: "/placeholder.svg?height=150&width=200", title: "Future of Neural Networks" } // New research paper added
+    { image: "images/Generative-AI-in-Healthcare-Use-Cases.webp", title: "AI in Healthcare" },
+    { image: "images/quantumcomputing.jpg", title: "Quantum Computing Advances" },
+    { image: "images/blockchain.jpg", title: "Blockchain for Data Security" },
+    { image: "images/neuralnetworks.jpg", title: "Future of Neural Networks" } // New research paper added
 ];
 
 // Function to create scroll items
